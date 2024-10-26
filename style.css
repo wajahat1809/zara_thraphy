@@ -1,0 +1,218 @@
+body {
+    font-family: montserrat;
+    
+}
+body{
+    background-color: f1fbff;
+}
+.section-paiding{
+    padding: 100px 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.carousel-inner ::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #000;
+}
+.navbar-light .navbar-nav .navbar-link{
+    color: #000;
+}
+.w-100{
+    height: 100vh;
+}
+.about-text{
+    align-items: center;
+    align-content: center;
+    padding-right: 20px;
+}
+.about-text :hover{
+    color: black;
+}
+.nav-item :hover{
+    color: whitesmoke;
+    background-color:#0d6efd;
+}
+.container2 {
+    align-items: flex-start;
+    justify-items: left;
+    justify-content: left;
+}
+.about-image{
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 0.2rem;
+    box-sizing: content-box;
+    border-style: groove;
+    content-visibility: auto;
+}
+.heading button{
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    border-radius: 1rem;
+    border: #0d6efd;
+    border: groove;
+    margin-left: 600px;
+    margin-bottom: 5px;
+}
+.heading button:hover{
+    color: whitesmoke;
+    background-color: #0d6efd;
+}
+.heading1 button{
+   
+    align-items: center;
+    border-radius: 1rem;
+    border: #0d6efd;
+    border: groove;
+    margin-left: 600px;
+    margin-bottom: 3px;
+}
+.heading1 button:hover{
+    color: whitesmoke;
+    background-color: #0d6efd;
+}
+.yoyo era{
+    border-radius: 0.2rem;
+}
+.heading2 button{
+    width: 164px;
+    align-items: center;
+    border-radius: 1rem;
+    border: #0d6efd;
+    border: groove;
+    margin-left: 600px;
+    margin-bottom: 3px;
+}
+
+.heading2 button:hover{
+    color: whitesmoke;
+    background-color: #0d6efd;
+}
+.footer{
+    color: whitesmoke;
+    background-color: #217ecf;
+}
+.read{
+    margin-right: 10px;
+}
+.icons{
+    margin-left: 10px;
+    justify-content: space-between;
+
+}
+.contactus{
+    
+    box-sizing: border-box;
+    border-radius: 1rem;
+    height: 350px;
+    width: 400px;
+}
+.ytff{
+    border-radius: 2rem;
+    width: 270px;
+    text-align: center;
+}
+.doc button{
+    width: 210px;
+    align-items: center;
+    border-radius: 1rem;
+    border: #0d6efd;
+    border: groove;
+    margin-left: 500px;
+    margin-bottom: 3px;
+}
+.doc button:hover{
+    color: whitesmoke;
+    background-color: #0d6efd;
+}
+.contactus{
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    justify-self: center;
+    margin-top: 20px;
+}
+.checkkar{
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    justify-self: center;
+    margin-top: 20px;
+ 
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .carousel-caption{
+        bottom: 370px;
+    }
+} 
+@media only screen and (max-width:767px)
+{
+    .container{
+        text-align: center;
+    }
+    .navbar-nav{
+        text-align: center;    
+    }
+    .yoyo{
+        align-items: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        padding: 10px 15px;
+        font-size: 15px;
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+}
